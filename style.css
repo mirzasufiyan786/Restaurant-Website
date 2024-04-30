@@ -1,0 +1,340 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    color: #777;
+    line-height: 1.7;
+    background-color: white;
+font-family: "Noto Sans", sans-serif;
+}
+
+.carousel-control-prev-icon{
+    background-color: #58414173;
+    height: 70px;
+    width: 60px;
+    color: white;
+}
+.carousel-control-next-icon{
+    background-color: #58414173;
+    height: 70px;
+    width: 60px;
+    color: white;
+}
+section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.shadow-on-hover {
+    transition: all 0.2s;
+}
+
+.shadow-on-hover:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: #222;
+}
+
+a {
+    color: #3f3e3e;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+nav a {
+    color: #757171 !important;
+}
+
+nav a:hover {
+    color: #F58d17 !important;
+}
+
+.logoimg {
+    height: 65px;
+    width: 197px;
+    background-image: url(assets/logoz.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px;
+}
+
+a:hover {
+    color: #F58d17;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 14px 38px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    padding: 14px 38px;
+    color: #fff;
+    font-weight: 500;
+    border-color: #F58d17;
+    background-color: #F58d17;
+}
+
+.btn-primary:hover {
+    border-radius: 5px;
+    padding: 14.5px 38px;
+    border-bottom: #c57112;
+    background-color: #d17915;
+    border-color: #d17915;
+    color: white;
+    font-weight: 600;
+
+}
+
+.bg-cover {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+/* slides */
+.slide1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/cover\ \(2\).jpg);
+}
+
+.slide2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/cover\ \(3\).jpg);
+}
+
+.slide3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/cover\ \(4\).jpg);
+}
+
+#heroslider h4::after,
+#heroslider h4::before {
+    content: " ";
+    width: 40px;
+    height: 4px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+/* about */
+
+#about .devider {
+    width: 60px;
+    height: 2px;
+    background-color: #F58d17;
+
+}
+
+img {
+    width: 100%;
+}
+
+/* intro-text */
+.intro-text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro-text p {
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+}
+
+/* menu */
+#menu img{
+    height: 190px;
+}
+#menu .nav-pills .nav-link {
+    background-color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #222;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+#menu .nav-pills .nav-link.active {
+    background-color: #F58d17;
+    color: #fff;
+}
+
+.menu-item .stars {
+    color: #F58d17;
+}
+
+.menucard h5, p {
+    text-align: center;
+}
+
+/* features */
+#features {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/hotel\ \(2\).jpg);
+}
+
+.features {
+    border: 2px solid rgba(255, 255, 255, 0.274);
+}
+
+.features .features-icon {
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
+    margin-left: 35%;
+    width: 65px;
+    height: 65px;
+    font-size: 35px;
+    background-color: #F58d17;
+    color: white;
+}
+
+.features .features-icon:hover {
+    background-color: #fff;
+    color: #F58d17;
+    font-size: 45px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+/* team */
+.team-member img {
+    max-width: 140px;
+    box-shadow: -10px -10px 0 #F58d17;
+    border-radius: 100px;
+
+}
+
+/* reviews */
+
+#reviews {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/indian\ \(1\).jpg);
+}
+
+.reviews img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.reviews .quotes-icon {
+    font-size: 74px;
+    color: #F58d17;
+    line-height: 1;
+}
+
+.person .stars {
+    color: #F58d17;
+}
+
+#reviews .carousel-indicators {
+    margin-bottom: -3rem;
+}
+
+/* reservation */
+
+#reservation .form-control {
+    border-radius: 0;
+}
+
+#reservation .form-control:focus {
+    box-shadow: none;
+    border-color: #F58d17;
+}
+
+#reservation input.form-control {
+    height: 47px;
+}
+
+/* insta-posts */
+
+.instaposts {
+    position: relative;
+    overflow: hidden;
+}
+
+.instaposts .insta-btn {
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 26px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.instaposts img {
+    transition: all 0.4s;
+}
+
+.instaposts:hover img {
+    transform: scale(1.2);
+}
+
+.instaposts:hover .insta-btn {
+    opacity: 1;
+}
+
+
+
+
+/* blog*/
+.blog-post img {
+    width: 40%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .blog-post {
+        flex-direction: column;
+    }
+
+    .blog-post img {
+        width: 100%;
+    }
+
+}
+
+/* footer */
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/hotel\ \(1\).jpg);
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.footer-top {
+    margin-bottom: 30px;
+}
+
+footer p,
+footer a {
+    text-align: start;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+footer img {
+    max-width: 200px;
+}
+
+footer .social-icons a {
+    font-weight: normal;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
